@@ -1,3 +1,4 @@
+
 /* ==========================
    BRENN SUITES - MAIN STYLE
 ========================== */
@@ -11,591 +12,466 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
-
     font-family: "Helvetica Neue", Arial, sans-serif;
-
     background: #ffffff;
-
     color: #111;
-
     line-height: 1.6;
-
 }
-
 
 
 /* ==========================
    NAVBAR
 ========================== */
 
-
 .navbar {
-
     position: fixed;
-
     top: 0;
     left: 0;
-
     width: 100%;
-
     height: 90px;
-
     background: #e9dfd0;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:0 70px;
-
-    z-index:1000;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    z-index: 1000;
 }
-
 
 .logo {
-
-    font-size:28px;
-
-    font-weight:500;
-
-    letter-spacing:2px;
-
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
-
 
 .nav-links {
-
-    display:flex;
-
-    gap:40px;
-
-    list-style:none;
-
+    display: flex;
+    gap: 40px;
+    list-style: none;
 }
-
 
 .nav-links a {
-
-    text-decoration:none;
-
-    color:#111;
-
-    font-size:15px;
-
-    letter-spacing:1px;
-
-    transition:.3s;
-
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: .3s;
 }
-
 
 .nav-links a:hover {
-
-    opacity:.5;
-
+    opacity: .5;
 }
-
 
 
 /* ==========================
    HERO
 ========================== */
 
-
 .hero {
-
-    height:100vh;
-
+    height: 100vh;
     background-image:
-    linear-gradient(
-        rgba(0,0,0,.25),
-        rgba(0,0,0,.25)
-    ),
-    url("images/hero.jpg");
-
-    background-size:cover;
-
-    background-position:center;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    text-align:center;
-
-    color:white;
-
+        linear-gradient(
+            rgba(0,0,0,.25),
+            rgba(0,0,0,.25)
+        ),
+        url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
-
-
 
 .hero-content {
-
-    max-width:800px;
-
+    max-width: 800px;
 }
-
 
 .hero h1 {
-
-    font-size:70px;
-
-    font-weight:300;
-
-    letter-spacing:4px;
-
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 4px;
 }
-
 
 .hero p {
-
-    margin-top:20px;
-
-    font-size:22px;
-
-    letter-spacing:2px;
-
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
-
 
 
 /* ==========================
    GENERAL SECTIONS
 ========================== */
 
-
 .section {
-
-    padding:120px 10%;
-
+    padding: 120px 10%;
 }
-
 
 
 /* ==========================
    VISION
 ========================== */
 
-
 .vision-block {
-
-    min-height:80vh;
-
-    display:flex;
-
-    align-items:center;
-
-    gap:60px;
-
-    margin-bottom:120px;
-
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
 }
-
-
 
 .vision-block img {
-
-    width:50%;
-
-    height:600px;
-
-    object-fit:cover;
-
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
 }
-
-
 
 .vision-text {
-
-    width:50%;
-
+    width: 50%;
 }
-
-
 
 .vision-text h2 {
-
-    font-size:42px;
-
-    font-weight:300;
-
-    letter-spacing:2px;
-
-    line-height:1.2;
-
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.2;
 }
-
-
 
 .vision-text p {
-
-    margin-top:25px;
-
-    font-size:18px;
-
+    margin-top: 25px;
+    font-size: 18px;
 }
-
 
 
 /* ==========================
    SUITES PAGE
 ========================== */
 
-
 .suite-card {
-
-    display:flex;
-
-    align-items:center;
-
-    gap:80px;
-
+    display: flex;
+    align-items: center;
+    gap: 80px;
 }
-
-
 
 .suite-card img {
-
-    width:55%;
-
-    height:650px;
-
-    object-fit:cover;
-
-    border-radius:5px;
-
+    width: 55%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 5px;
 }
-
-
 
 .suite-info {
-
-    width:45%;
-
-    text-align:left;
-
+    width: 45%;
+    text-align: left;
 }
-
-
 
 .suite-info h2 {
-
-    font-size:50px;
-
-    font-weight:300;
-
-    letter-spacing:3px;
-
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
-
-
 
 .suite-info h3 {
-
-    margin-top:20px;
-
-    font-size:24px;
-
-    font-weight:300;
-
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
 }
-
-
 
 .suite-info p {
-
-    margin-top:25px;
-
-    max-width:500px;
-
-    font-size:18px;
-
+    margin-top: 25px;
+    max-width: 500px;
+    font-size: 18px;
 }
-
 
 
 /* BUTTON */
 
 .button {
-
-    display:inline-block;
-
-    margin-top:30px;
-
-    padding:14px 35px;
-
-    background:#111;
-
-    color:white;
-
-    text-decoration:none;
-
-    letter-spacing:2px;
-
-    transition:.3s;
-
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 35px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .3s;
 }
-
 
 .button:hover {
-
-    background:#555;
-
+    background: #555;
 }
-
 
 
 /* ==========================
    SERVICES
 ========================== */
 
-
 .service-box {
-
-    display:flex;
-
-    justify-content:space-between;
-
-    gap:50px;
-
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
-
 
 .service {
-
-    flex:1;
-
-    text-align:center;
-
+    flex: 1;
+    text-align: center;
 }
-
 
 .service h3 {
-
-    font-size:28px;
-
-    font-weight:300;
-
+    font-size: 28px;
+    font-weight: 300;
 }
-
 
 .service p {
-
-    margin-top:20px;
-
-    font-size:17px;
-
+    margin-top: 20px;
+    font-size: 17px;
 }
-
 
 
 /* ==========================
    FOOTER
 ========================== */
 
-
 footer {
-
-    background:#000;
-
-    color:white;
-
-    padding:70px 10%;
-
+    background: #000;
+    color: white;
+    padding: 70px 10%;
 }
-
-
 
 footer h2 {
-
-    font-weight:300;
-
-    letter-spacing:3px;
-
+    font-weight: 300;
+    letter-spacing: 3px;
 }
-
 
 footer p {
-
-    margin-top:15px;
-
-    color:#ccc;
-
+    margin-top: 15px;
+    color: #ccc;
 }
-
 
 
 /* ==========================
    SCROLL ANIMATION
 ========================== */
 
-
 .vision-block,
 .service {
-
-    opacity:1;
-
-    transform:translateY(0);
-
-    transition:1s ease;
-
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s ease;
 }
-
-
 
 .show {
-
-    opacity:1;
-
-    transform:translateY(0);
-
+    opacity: 1;
+    transform: translateY(0);
 }
 
+
+/* ==========================
+   LOCATIONS MAP - DESKTOP
+========================== */
+
+.locations-section {
+    width: 100%;
+    padding: 70px 20px;
+    text-align: center;
+    background: white;
+    box-sizing: border-box;
+}
+
+.locations-section h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 35px;
+}
+
+.map-container {
+    width: 95%;
+    max-width: 1100px;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    position: relative;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 525px;
+    border: 0;
+    display: block;
+    position: relative;
+    top: -75px;
+}
+
+.location-labels {
+    max-width: 1100px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.location-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.location-item strong {
+    margin-right: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.red {
+    background: #e00000;
+}
+
+.green {
+    background: #269b58;
+}
 
 
 /* ==========================
    MOBILE
 ========================== */
 
+@media (max-width: 768px) {
 
-@media(max-width:768px){
+    /* NAVBAR */
 
+    .navbar {
+        padding: 0 25px;
+    }
 
-.navbar {
+    .logo {
+        font-size: 22px;
+    }
 
-    padding:0 25px;
+    .nav-links {
+        gap: 15px;
+    }
 
-}
+    .nav-links a {
+        font-size: 12px;
+    }
 
 
-.logo {
+    /* HERO */
 
-    font-size:22px;
+    .hero h1 {
+        font-size: 42px;
+    }
 
-}
+    .hero p {
+        font-size: 16px;
+    }
 
 
+    /* GENERAL SECTIONS */
 
-.nav-links {
+    .section {
+        padding: 80px 25px;
+    }
 
-    gap:15px;
 
-}
+    /* VISION */
 
+    .vision-block {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
 
-.nav-links a {
+    .vision-block img,
+    .vision-text {
+        width: 100%;
+    }
 
-    font-size:12px;
+    .vision-block img {
+        height: 400px;
+    }
 
-}
+    .vision-text h2 {
+        font-size: 32px;
+    }
 
 
+    /* SUITES */
 
-.hero h1 {
+    .suite-card {
+        flex-direction: column;
+    }
 
-    font-size:42px;
+    .suite-card img,
+    .suite-info {
+        width: 100%;
+    }
 
-}
+    .suite-card img {
+        height: 450px;
+    }
 
 
+    /* SERVICES */
 
-.hero p {
+    .service-box {
+        flex-direction: column;
+    }
 
-    font-size:16px;
 
-}
+    /* LOCATIONS MAP */
 
+    .locations-section {
+        width: 100%;
+        padding: 50px 15px;
+    }
 
+    .locations-section h2 {
+        font-size: 30px;
+    }
 
-.section {
-
-    padding:80px 25px;
-
-}
-
-
-
-/* VISION */
-
-.vision-block {
-
-    flex-direction:column;
-
-    margin-bottom:80px;
-
-}
-
-
-
-.vision-block img,
-.vision-text {
-
-    width:100%;
-
-}
-
-
-
-.vision-block img {
-
-    height:400px;
-
-}
-
-
-
-/* SUITES */
-
-.suite-card {
-
-    flex-direction:column;
-
-}
-
-
-
-.suite-card img,
-.suite-info {
-
-    width:100%;
-
-}
-
-
-
-.suite-card img {
-
-    height:450px;
-
-}
-
-
-
-.vision-text h2 {
-
-    font-size:32px;
-
-}
-
-
-
-.service-box {
-
-    flex-direction:column;
-
-}
-
+    .map-container {
+        width: 100%;
+        height: 350px;
+        min-height: 350px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .map-container iframe {
+        width: 100%;
+        height: 450px;
+        min-height: 450px;
+        position: relative;
+        top: -75px;
+        left: 0;
+        border: 0;
+        display: block;
+    }
+
+    .location-labels {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-top: 25px;
+        flex-wrap: wrap;
+    }
 
 }
